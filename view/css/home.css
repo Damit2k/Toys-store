@@ -1,0 +1,689 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-family: 'Quicksand', sans-serif;
+}
+body {
+	min-height: 100%;
+}
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+/* TOP */
+.top {
+	background-color: #4b4747;
+	color: white;
+}
+.top p {
+	margin: auto;
+	padding: 7px;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+.a:hover {
+	color: black;
+	text-decoration: none;
+}
+.khung {
+	border: 1px solid black;
+}
+.top-name {
+	width: 10%;
+}
+
+/* DROPDOWN */
+.icon {
+	height: 50px;
+}
+.icon-dropdown {
+	float: right;
+}
+.timkiemdropdown {
+	width: 400px;
+}
+.timkiemdropdown h6 {
+	text-align: center;
+	padding: 10px 0 10px 0;
+	border-bottom: 1px solid #dee2e6;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+.timkiemdropdown .container {
+	width: 90%;
+}
+.timkiem-inputtk {
+	width: 100%;
+	padding: 10px 10px 10px 15px;
+	border: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #dee2e6;
+	float: left;
+	font-size: 12px;
+}
+.timkiemdropdown button i {
+	margin-left: -50px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.timkiemdropdown button {
+	margin-top: 1rem;
+}
+.timkiemdropdown button:hover {
+	border:none;
+}
+.timkiem-inputsearch {
+	width: 100%;
+	padding: 10px 10px 10px 15px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border: none;
+	background-color: #f2f1f3;
+	float: left;
+}
+.sitebox-recaptcha {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.sitebox-recaptcha .timkiem-a {
+	font-size: 12px;
+	color: blue;
+}
+.timkiem-tk button {
+	width: 100%;
+	color: white;
+}
+.timkiem-tk .timkiem-button {
+	background-color: #6c757d;
+  	border-color: #6c757d;
+  	margin-bottom: 20px;
+}
+.taotk .taotk-a {
+	font-size: 12px;
+}
+.taotk {
+	font-size: 12px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+/* MENU */
+.menu {
+	margin: 1% 0 1% 0;
+}
+.menu a {
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.menu a:hover {
+	color: black;
+	text-decoration: none;
+}
+.icon {
+	width: 60%;
+	float: right;
+}
+.icon button {
+	cursor: pointer;
+	border: 0;
+	background-color: white;
+	float: right;
+}
+.icon button:hover {
+	border: 0;
+}
+.menu .icon h4 {
+	padding: 5px 10px 0px 10px;
+	float: right;
+}
+.a {
+	color: black; 
+	text-decoration: none;
+}
+.a:hover {
+	color: black;
+	font-weight: 500;
+}
+/* NAVBAR */
+.topnav {
+	justify-content: center;
+}
+.nav-item {
+	margin-right: 10px;
+}
+
+
+/* SLIDE */
+.slide img {
+	height: 450px;
+	margin-bottom: 2rem;
+}
+
+/* San Pham */
+.spmoi {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.spmoi h1 {
+	font-family: monospace;
+}
+.spimg {
+	height: 262px;
+	width: 100%;
+}
+.spname {
+	font-size: 13.6px;
+}
+.price {
+	font-size: 14px;
+	color: red;
+}
+.spbanchay1 {
+	margin-bottom: 1rem;
+}
+
+/* about us */
+.aboutus {
+	background-color: #f5f5f5;
+	margin-top: 50px;
+}
+.aboutus img {
+	height: 500px;
+	width: 100%;
+}
+.aboutus p {
+	font-size: 14px;
+}
+.info {
+	width: 90%;
+	float: right;
+}
+.info-content {
+	width: 60%;
+	margin: 60px;
+}
+.info-content p {
+	line-height: 20px;
+	font-weight: 500;
+}
+
+
+/* footer */
+.footer {
+	margin-bottom: 50px;
+	font-size: 14px;
+	margin-top: 2rem;
+}
+
+.footer-aboutus {
+	width: 100%;
+	font-size: 14px;
+}
+.footer-aboutus img{
+	height: 150px;
+}
+.footer-fanpage {
+	margin-left: 15px;
+}
+.footer li {
+	margin-bottom: 10px;
+}
+.copyright {
+	padding: 10px 0 20px 0;
+	font-size: 14px;
+}
+
+/* gio hang */
+.giohang-header {
+	margin-bottom: 2rem;
+}
+.giohang-title {
+	font-size: 13px;
+}
+.giohang-a {
+	font-size: 14px;
+	color: black;
+	text-decoration: none;
+}
+.giohang-a:hover {
+	color: black;
+	text-decoration: none;
+}
+.cach {
+	margin-bottom: 2rem;
+}
+
+/* gio hang browse */
+.main h3{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.main a {
+	color: black;
+	font-size: 14px;
+}
+.main a:hover {
+	color: black;
+	text-decoration: none;
+}
+.main p {
+	font-size: 14px;
+}
+.browse {
+	background-color: #f5f5f5;
+	padding: 7px 0 7px 0;
+	margin-bottom: 2rem;
+}
+.giohang-body {
+	display: flex;
+}
+
+/* gio hang body */
+.nut {
+	border: 1px solid white;
+}
+.cong {
+	border: 1px solid #dee2e6;
+}
+.cong-btn {
+	color: black;
+	padding: 2px 7px 2px 7px;
+}
+.cong-btn:hover {
+	text-decoration: none;
+	color: black;
+	background-color: #f1f2f2;
+}
+.xoa {
+	font-weight: bolder;
+	text-decoration: none;
+	color: black;
+	float: right;
+}
+.xoa:hover {
+	text-decoration: none;
+	color: black;
+}
+.soluong {
+	padding: 0 7px 0 7px;
+	font-weight: bold;
+}
+.giohang-title {
+	font-size: 16px;
+	font-weight: bold;
+	padding-bottom: 2px;
+}
+.giohang-price {
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+.giohang-sptien {
+	float: right;
+	margin-top: 2rem;
+	font-weight: bold;
+}
+.giohang-img {
+	width: 100px;
+	height: 100px;
+}
+.td-img {
+	width: 115px;
+}
+.giohang-soluong {
+	padding: 5px 0 5px 0;
+
+}
+.giohang-tongtien-border {
+	border: 1px solid #dee2e6;
+}
+.giohang-tongtien h5 {
+	font-weight: bold;
+	padding: 1.25rem 0 0rem 1rem;
+}
+.giohang-tongtien li {
+	width: 95%;
+	padding-top: 1rem;
+	margin: 1rem 0 1.25rem 15px;
+	border-top: 1px solid #dee2e6;
+}
+.giohang-tongtien-price {
+	float: right;
+	margin-right: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+.giohang-tongtien-title {
+	font-size: 18px;
+	color: #646464;
+}
+.giohang-tongtien button {
+	width: 95%;
+	margin-left: 15px;
+	height: 50px;
+}
+textarea {
+	background-color: #ededed;
+	border: none;
+	width: 100%;
+	height: 120px;
+	padding: 10px;
+}
+.ghichu {
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 1.5rem;
+	margin-bottom: 0.75rem;
+}
+.bi-arrow-right {
+	font-weight: bolder;
+	font-size: 15px;
+}
+.giohang-ghichu p {	
+	font-size: 14px;
+	line-height: 25px;
+}
+.rem20 {
+	margin-top: 15rem;
+}
+.giohang-footer {
+	width: 100%;
+	padding: 15px 0 15px 0;
+	background-color: #f1f1f2;
+	margin-bottom: 3%;
+}
+.giohang-footer input {
+	width: 50%;
+	margin-left: 3%;
+	padding: 5px 0 5px 0;
+	padding-left: 10px;
+}
+.giohang-footer button {
+	margin-left: -7px;
+	height: 38px;
+	padding-bottom: 10px;
+	width: 120px;
+	margin-bottom: 4px;
+	border-radius: 0;
+	margin-right: 5%;
+}
+.danhmuc-footer {
+	margin-top: 10rem;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	background-color: #f1f1f2;
+}
+.timkiem-footer {
+	margin-top: 15rem;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	background-color: #f1f1f2;
+}
+
+
+/* PRODUCT */ 
+.product-gallery {
+	width: 10%;
+	margin-right: 15px;
+}
+.product-gallery img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 15px;
+}
+.product-gallery img:hover {
+	border: 1px solid black;
+}
+.product-image {
+	width: 100%;
+}
+.product-image img {
+	height: 800px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.products-mail {
+	margin-top: 5rem;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	background-color: #f1f1f2;
+}
+.product-price {
+	color: red;
+	font-weight: bold;
+	font-size: 18px;
+}
+.mota {
+	padding-top: 15px;
+	padding-left: 15px;
+}
+.mota h6 {
+	font-weight: bold;
+}
+.mota p {
+	line-height: 25px;
+	font-family: sans-serif;
+}
+.product-cong-btn {
+	color: black;
+	padding: 7px 15px 7px 15px;
+}
+.product-soluong {
+	padding: 0px 30px 0 30px;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.product-cong-btn {
+	background-color: #f1f2f1;
+}
+
+/* TIM KIEM */ 
+.timkiem-spcard {
+	min-width: 18%;
+}
+
+/* DANH MUC */
+.danhmuctrai {
+	padding-top: 15px;
+}
+.danhmuctrai h6 {
+	font-size: 15px;
+	padding-bottom: 10px;
+	margin-top: 5px;
+}
+.danhmuctrai li {
+	font-size: 15px;
+	padding-top: 5px;
+}
+.danhmuctrai input {
+	height: 12px;
+	border: 1px solid #f1f2f3;
+}
+.cursor {
+	cursor: pointer;
+}
+.danhmuctrai li:hover {
+	font-weight: lighter;
+}
+.danhmuctrai button {
+	float: right;
+	margin-right: 130px;
+	font-size: 14px;
+}
+
+/* khach hang */
+.bi-circle {
+	font-size: 8px;
+	padding: 0;
+	margin-right: 3px;
+}
+.khachhang .row li {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+
+/* dang nhap */
+.dangnhap .row .col-md-6 form input {
+	height: 50px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-color: #eee;
+}
+.dangnhap .row .col-md-6 form button {
+	padding: 15px 30px 15px 30px;
+}
+.dangnhap .left {
+	padding: 10%;
+	border-right: 1px solid #eee;
+}
+
+.dangnhap .right {
+	padding: 5%;
+}
+.dangnhap-a a{
+	text-decoration: underline;
+	color: blue;
+	font-size: 17px;
+}
+.dangnhap-a p {
+	font-size: 17px;
+}
+/* dang ky */
+.dangky .row .col-md-6 form .timkiem-inputtk {
+	height: 50px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	background-color: #eee;
+}
+.dangky .row .col-md-6 form button {
+	padding: 15px 30px 15px 30px;
+}
+.dangky .left {
+	padding: 10%;
+	border-right: 1px solid #eee;
+}
+
+.dangky .row .col-md-6 form .radio {
+	padding: 5px;
+	font-weight: bold;
+}
+.dangky .row .col-md-6 form span {
+	margin-right: 15px;
+}
+.dangky .right {
+	padding: 5%;
+}
+
+.diachi button {
+	margin-top: 10px;
+}
+
+.error {
+	color: red;
+}
+.dangky input {
+	font-size: 14px;
+}
+.dangky span {
+	font-size: 13px;
+}
+
+
+/* admin sanpham */
+.admin-sp td img {
+	height: 100px;
+}
+.admin-sp-img {
+	width: 100px;
+	margin-top: 2px;
+}
+.admin-sp-name {
+	width: 20%;
+}
+.admin-sp-trangthai {
+	width: 8%;
+}
+.admin-sp-trangthai span {
+	margin-left: 10%;
+}
+.admin-sp-dmName {
+	width: 15%;
+}
+.admin-sp-price {
+	width: 8%;
+}
+.admin-sp-tonkho {
+	width: 5%;
+}
+.admin-sp-content {
+	font-size: 11px;
+	width: 20%;
+}
+.admin-suasp input {
+	height: 50px;
+	width: 100%;
+}
+.admin-sp-search input{
+	width: 300px;
+	height: 40px;
+}
+
+/* dat hang */
+.dathang {
+	margin-top: 4%;
+}
+.dathang-left {
+	border-right: 1px solid #eee;
+	margin-left: 10%;
+}
+.dathang-left .a {
+	letter-spacing: 0.1px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.dathang-left a {
+	color: black;
+	text-decoration: none;
+}
+.dathang-left a:hover {
+	color: black;
+	text-decoration: none;
+	font-weight: none;
+}
+.dathang-footer {
+	clear: both;
+    position: relative;
+    height: 200px;
+}
+.dathang-brcrumb {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.dathang-brcrumb a {
+	font-size: 14px;
+}
+.dathang-brcrumb .brcrumb1 {
+	color: blue;
+}
+.dathang h5 {
+	letter-spacing: 0.01px;
+}
+.dathang-left p {
+	margin-top: 20px;
+	font-size: 14px;
+}
+.dathang-left .dathang-dangnhap {
+	color: blue;
+}
